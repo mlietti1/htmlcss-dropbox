@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 80px;
 }
 
@@ -40,7 +41,35 @@ header {
 }
 
 .jumbotron {
-    /* altezza da togliere */
-    height: 740px;
     background-color: #b4d0e7;
+    height: 400px;
+    position: relative;
+    /* altezza forse da rimuovere */
+}
+
+.jumbotron .content {
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.over {
+    margin-top: 40px;
+}
+
+.over img {
+    width: 60%;
+}
+
+.over .text {
+    width: 35%;
+}
+
+main .container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
 }
