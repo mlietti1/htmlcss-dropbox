@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.header-left, .header-right {
+    line-height: 80px;
+}
+
+.jumbotron {
+    /* altezza da togliere */
+    height: 740px;
+    background-color: #b4d0e7;
+}
