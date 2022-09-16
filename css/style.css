@@ -32,6 +32,10 @@ header {
     background-color: white;
 }
 
+header .container {
+    width: 100%;
+}
+
 .menu ul {
     list-style: none;
 }
@@ -42,30 +46,27 @@ header {
 
 .jumbotron {
     background-color: #b4d0e7;
-    height: 400px;
-    position: relative;
-    /* altezza forse da rimuovere */
+}
+
+.jumbotron .container {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .jumbotron .content {
-    width: 60%;
-    margin: 0 auto;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
 }
 
-.over {
-    margin-top: 40px;
+.jumbotron .content .text {
+    flex-basis: 40%;
+    margin-right: 20px;
 }
 
 .over img {
+    position: absolute;
+    right: 0;
+    top: 0;
     width: 60%;
-}
-
-.over .text {
-    width: 35%;
 }
 
 main .container {
@@ -79,4 +80,9 @@ main .row .col {
     border: 1px solid grey;
     width: calc(100% / 3);
     margin: 10px;
+    padding: 10px;
+}
+
+.row ul {
+    list-style: none;
 }
