@@ -73,13 +73,13 @@ header .container {
     width: 60%;
 }
 
-main > .container {
+main .container {
     width: 50%;
     margin: 0 auto;
     margin-top: 100px;
 }
 
-main h2, main .radio {
+.radio {
     padding: 10px;
 }
 
@@ -89,7 +89,7 @@ main .row .col {
     margin: 10px;
 }
 
-.col .container {
+.col .content {
     flex-direction: column;
     padding: 10px;
 
@@ -116,4 +116,27 @@ main .row .col {
 
 .long-box .box-right {
     margin: 10px;
+} 
+
+.partner {
+    padding: 10px;
 }
+
+.partner img {
+    width: 60%;
+}
+.cards h2 {
+    padding: 10px;
+}
+
+.cards .row {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+
