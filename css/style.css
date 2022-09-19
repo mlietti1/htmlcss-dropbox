@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 .d-flex {
@@ -30,8 +30,8 @@ body {
 }
 
 header {
-    height: 80px;
-    border-bottom: 1px solid grey;
+    height: 70px;
+    box-shadow: 0px 1px 3px lightgrey;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -44,19 +44,33 @@ header .container {
     width: 100%;
 }
 
+header .logo {
+    margin-left: 20px;
+}
+
+.header-left, .header-right {
+    line-height: 70px;
+}
+
 .menu ul {
     list-style: none;
 }
 
-.header-left, .header-right {
-    line-height: 80px;
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 30px;
+}
+
+.menu ul li:hover {
+    border-bottom: 2px solid black;
 }
 
 .jumbotron {
     background-color: #b4d0e7;
 }
 
-.jumbotron .container {
+.jumbotron .container, .ft-container {
     width: 60%;
     margin: 0 auto;
 }
@@ -80,7 +94,6 @@ header .container {
 main .container {
     width: 50%;
     margin: 0 auto;
-    margin-top: 100px;
 }
 
 .radio {
@@ -159,11 +172,11 @@ main .container {
 
 .col img {
     width: 50%;
+    filter: invert(1);
 }
 
 .col.designit {
     background-color: #a2d39b;
-    color: white;
 }
 
 .col.arizona {
@@ -197,3 +210,12 @@ main .container {
 .col.clear-channel {
     background-color: #ffd830;
 }
+
+.row.long {
+    background-color: #b4d0e7;
+}
+
+.row.long {
+    height: 360px;
+}
+
