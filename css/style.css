@@ -340,6 +340,8 @@ ul.check li::before {
     margin-bottom: 40px
 }
 
+/* COLORED SQUARES */
+
 .companies {
     margin-top: 70px;
 }
@@ -352,6 +354,12 @@ ul.check li::before {
 .companies .col {
     width: calc(100vw / 6);
     height: calc(100vw / 6);
+}
+
+.active {
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+    border: 10px solid #d1e9cd;
 }
 
 .col img {
@@ -425,6 +433,8 @@ ul.check li::before {
 .row.long {
     height: 360px;
 }
+
+/* FOOTER */
 
 footer {
     color: white;
