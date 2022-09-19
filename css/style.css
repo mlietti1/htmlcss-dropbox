@@ -4,9 +4,24 @@
     box-sizing: border-box;
 }
 
+/* GENERAL */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 70px;
+    font-size: 14px;
+}
+
+.btn a, a.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: #0061ff;
+    padding: 10px;
+    margin: 20px 0;
+
 }
 
 .d-flex {
@@ -28,6 +43,8 @@ body {
 .flex-col {
     flex-direction: column;
 }
+
+/* HEADER */
 
 header {
     height: 70px;
@@ -52,6 +69,12 @@ header .logo {
     line-height: 70px;
 }
 
+header .btn {
+    padding: 5px;
+    background-color: #0061ff;
+    margin-right: 20px;
+}
+
 .menu ul {
     list-style: none;
 }
@@ -66,8 +89,18 @@ header .logo {
     border-bottom: 2px solid black;
 }
 
+/* JUMBOTRON */
+
 .jumbotron {
     background-color: #b4d0e7;
+}
+
+.jumbotron h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 70px;
+    
 }
 
 .jumbotron .container, .ft-container {
@@ -77,11 +110,27 @@ header .logo {
 
 .jumbotron .content {
     position: relative;
+    margin-top: 40px;
 }
 
 .jumbotron .content .text {
     flex-basis: 40%;
-    margin-right: 20px;
+    margin-right: 25px;
+}
+
+.jumbotron p {
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.jumbotron span {
+    margin-bottom: 30px;
+}
+
+.jumbotron  .fa-solid {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .over img {
@@ -91,13 +140,21 @@ header .logo {
     width: 60%;
 }
 
+/* MAIN */
+
 main .container {
     width: 50%;
     margin: 0 auto;
 }
 
 .radio {
-    padding: 10px;
+    padding: 30px 10px;
+
+}
+
+.radio h2 {
+    margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .principale .row .col {
@@ -106,9 +163,20 @@ main .container {
     margin: 10px;
 }
 
+.col .title {
+    text-align: center;
+}
+
+.col .fa-solid {
+    margin-right: 5px;
+}
+
+
+
 .col .content {
     flex-direction: column;
-    padding: 10px;
+    padding: 20px 20px;
+    line-height: 18px;
 
 }
 
@@ -117,8 +185,72 @@ main .container {
     padding: 10px;
 }
 
+.content h3 {
+    margin-bottom: 20px;
+}
+
+.content .price {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.content .durata {
+    color: gray;
+}
+
+.content .line {
+    display: inline-block;
+    width: 50px;
+    border-bottom: 1px solid lightgrey;
+    margin-top: 40px;
+}
+
+.content h4 {
+    margin-top: 40px;
+}
+
 .row ul {
     list-style: none;
+}
+
+ul.features li, ul.check li {
+    margin: 20px 0;
+}
+
+ul.features li.user1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f007";
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+ul.features li.size::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f07b";
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+ul.features li.share::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f1e0";
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+ul.features li.user2::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0c0";
+    font-weight: 800;
+    margin-right: 4px;
+}
+
+ul.check li::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 800;
+    margin-right: 4px;
+    color: #0061ff;
 }
 
 .long-box {

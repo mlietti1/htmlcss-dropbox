@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
@@ -32,7 +35,7 @@
                         </ul>
                     </nav>
             
-                    <a class="btn" href="#">Inizia</a>
+                    <span><a class="btn" href="#">Inizia</a></span>
                 </div>
         </div>
 
@@ -41,10 +44,11 @@
         <div class="container">
             <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
             <div class="content d-flex justify-sb">
-                <div class="text">
+                <div class="text d-flex flex-col">
                     <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                    <span class="btn">Inizia la tua prova gratuita</span>
+                    <span><a class="btn" href="#">Inizia la tua prova gratuita</a></span>
                     <span>Annulla in qualsiasi momento</span>
+                    <a href="#bottom"><i class="fa-solid fa-arrow-down"></i></a>
                 </div>
                 <div class="over"> 
                  <img src="/img/jumbo.png" alt="jumbotron">
@@ -65,44 +69,47 @@
 
             <div class="row d-flex justify-sb">
                 <div class="col d-flex flex-col">
-                    <div class="title">Singolo</div>
+                    <div class="title"><i class="fa-solid fa-user"></i>Singolo</div>
                     <div class="content d-flex flex-col">
                         <h3>Professional</h3>
                         <span class="price">&euro; 12.00</span>
-                        <span>/mese</span>
-                        <ul>
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione sicuro</li>
-                            <li>Funzioni di produttività premium e condivisione di file semplice e sicura</li>
+                        <span class="durata">/mese</span>
+                        <ul class="features">
+                            <li class="user1">1 utente</li>
+                            <li class="size">5 TB di spazio di archiviazione sicuro</li>
+                            <li class="share">Funzioni di produttività premium e condivisione di file semplice e sicura</li>
                         </ul>
-                        <span class="btn">Prova gratis per 30 giorni</span>
+                        <span class="btn"><a href="#">Prova gratis per 30 giorni</a></span>
                         <span>oppure <a href="#">acquista ora</a></span>
                         <span class="line"></span>
                         <h4>Punti salienti del piano</h4>
-                        <ul>
+                        <ul class="check">
                             <li>Invia file fino a 100 GB con Dropbox Transfer</li>
                             <li>Cartelle offline su dispositivi mobili</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col d-flex flex-col">
-                    <div class="title">Singolo</div>
+                    <div class="title"><i class="fa-solid fa-users"></i>Team</div>
                     <div class="content d-flex">
-                        <h3>Professional</h3>
-                        <span class="price">&euro; 12.00</span>
-                        <span>/mese</span>
-                        <ul>
-                            <li>1 utente</li>
-                            <li>5 TB di spazio di archiviazione sicuro</li>
-                            <li>Funzioni di produttività premium e condivisione di file semplice e sicura</li>
+                        <h3>Advanced</h3>
+                        <span class="price">&euro; 18.00</span>
+                        <span class="durata">/utente/mese</span>
+                        <ul class="features">
+                            <li class="user2">3 o più utenti</li>
+                            <li class="size">5 TB di spazio di archiviazione sicuro</li>
+                            <li class="share">Funzioni di produttività premium e condivisione di file semplice e sicura</li>
                         </ul>
-                        <span class="btn">Prova gratis per 30 giorni</span>
+                        <span class="btn"><a href="#">Prova gratis per 30 giorni</a></span>
                         <span>oppure <a href="#">acquista ora</a></span>
                         <span class="line"></span>
                         <h4>Punti salienti del piano</h4>
-                        <ul>
-                            <li>Invia file fino a 100 GB con Dropbox Transfer</li>
+                        <ul class="check">
+                            <li>Nessun limite di spazio per i file</li>
                             <li>Cartelle offline su dispositivi mobili</li>
+                            <li>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li>Possibilotà di inserire nuovi membri nel team</li>
+                            <li>Gestione dei permessi in base ai ruoli</li>
                         </ul>
                     </div>
                 </div>
@@ -117,7 +124,7 @@
                         <li>5 TB di spazio di archiviazione sicuro</li>
                         <li>Funzioni di produttività premium e condivisione di file semplice e sicura</li>
                         </ul>
-                        <span class="btn">Prova gratis per 30 giorni</span>
+                        <span class="btn"><a href="#">Prova gratis per 30 giorni</a></span>
                         <span>oppure <a href="#">acquista ora</a></span>
                         <span class="line"></span>
                         <h4>Punti salienti del piano</h4>
@@ -138,7 +145,7 @@
                         <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
                     </div>
                     <div class="box-right">
-                        <span class="btn">Contatta l'ufficio vendite</span>
+                        <span class="btn"><a href="#">Contatta l'ufficio vendite</a></span>
                     </div>
                 </div>
             </div>
@@ -147,7 +154,7 @@
                 <div class="content">
                     <h3>Entra in contatto con un partner Dropbox</h3>
                     <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
-                    <span class="btn">Trova un partner</span>
+                    <span class="btn"><a href="#">Trova un partner</a></span>
                 </div>
             </div>
             <div class="cards">
@@ -213,7 +220,7 @@
             <div class="row long d-flex align-center">
                 <div class="container d-flex justify-sb align-center">
                     <h2>Porta Dropbox Business nella tua azienda.</h2>
-                    <span class="btn">Inizia la tua prova gratuita</span>
+                    <span id="bottom" class="btn"><a href="#">Inizia la tua prova gratuita</a></span>
                 </div>
             </div>
         </section>
