@@ -167,6 +167,10 @@ main .container {
 
 }
 
+.radio label {
+    margin-right: 40px;
+}
+
 .radio h2 {
     margin-top: 100px;
     margin-bottom: 40px;
@@ -356,10 +360,8 @@ ul.check li::before {
     height: calc(100vw / 6);
 }
 
-.active {
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
-    border: 10px solid #d1e9cd;
+.companies .col:active {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .col img {
