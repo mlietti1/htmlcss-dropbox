@@ -352,12 +352,13 @@ ul.check li::before {
 
 .companies .square {
     width: calc(100vw / 3);
+    height: calc(100vw / 3);
     flex-wrap: wrap;
 }
 
 .companies .col {
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
+    width: 50%;
+    height: 50%;
 }
 
 .companies .col:active {
