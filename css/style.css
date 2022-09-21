@@ -107,6 +107,7 @@ header .btn {
 
 .jumbotron {
     background-color: #b4d0e7;
+    padding-bottom: 20px;
 }
 
 .jumbotron h1 {
@@ -124,12 +125,13 @@ header .btn {
 
 .jumbotron .content {
     position: relative;
-    margin-top: 40px;
+    bottom: -70px;
 }
 
 .jumbotron .content .text {
     flex-basis: 40%;
     margin-right: 25px;
+    padding-bottom: 10px;
 }
 
 .jumbotron p {
@@ -145,13 +147,9 @@ header .btn {
 .jumbotron  .fa-solid {
     color: black;
     font-size: 30px;
-    margin-bottom: 10px;
 }
 
-.over img {
-    position: absolute;
-    right: 0;
-    top: 0;
+.jumbotron img {
     width: 60%;
 }
 
